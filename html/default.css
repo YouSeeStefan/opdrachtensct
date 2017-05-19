@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .notification-bar {
     top:-100px;
     position: relative;
@@ -20,4 +24,25 @@
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    
+}
+
+
+
+
+  .notification-bar2 {
+    bottom: -1000px;
+    position: fixed;
+    border: 1px solid #7f9a40;
+    background: #9fc150;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom-width: 2.5px !important;
+    font-family: monospace;
+    text-align: center;
+    width: 97%;
+}
+
+.notification-bar2.enabled {
+    bottom: 0;
 }
